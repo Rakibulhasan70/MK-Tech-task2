@@ -7,6 +7,7 @@ import Products from './Components/Products';
 import Client from './Components/Client';
 import About from './Components/About';
 import Login from './Components/Login';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

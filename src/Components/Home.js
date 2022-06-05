@@ -1,11 +1,15 @@
 import React from 'react';
-import Header from './Header';
-
+import About from './About';
+import Banner from './Banner';
+import Client from './Client';
+import Products from './Products';
 const Home = () => {
     return (
         <div>
-            <h2>soahgh</h2>
-            {/* <Header></Header> */}
+            <Banner></Banner>
+            <Products></Products>
+            <Client></Client>
+            <About></About>
         </div>
     );
 };
