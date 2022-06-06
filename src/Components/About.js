@@ -4,7 +4,7 @@ import about from '../../src/images/about.jpeg'
 const About = () => {
     return (
         <div className='container'>
-            <h2 className='my-5'>About Us</h2>
+            <h2 className='my-4'>About Us</h2>
             <div className="row">
                 <div className="col-lg-6">
                     <img style={{ width: '500px', borderRadius: '10px' }} src={about} alt="" />

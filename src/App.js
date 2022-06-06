@@ -9,6 +9,7 @@ import About from './Components/About';
 import Login from './Components/Login';
 import Footer from './Components/Footer';
 import Register from './Components/Register';
+import Download from './Components/Download';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/download' element={<Download></Download>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
