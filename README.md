@@ -2,9 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## Got to my project link and enjoy it.
+This is my project Live site link [https://task-mk-2.web.app/](https://task-mk-2.web.app/)to view in your browser.
 
 ### `npm start`
 
